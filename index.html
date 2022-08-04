@@ -14,39 +14,138 @@
     />
     <link rel="stylesheet" href="./styles.css" />
   </head>
-  <body class="white">
+  <body class="white text-gray font-medium">
     <div id="app">
       <header class="">
-        <div class="">Ganhe R$ 10,00 de desconto no frete</div>
-        <div class="">JordanShoes</div>
+        <div class="py-4 bg-black-ligth text-center text-white">
+          Ganhe R$ 10,00 de desconto no frete
+        </div>
+        <div
+          class="text-2xl py-2 bg-white text-center text-black-ligth font-semibold"
+        >
+          JordanShoes
+        </div>
       </header>
       <main>
-        <section class="">
-          <h1 class="">A melhor loja de Jordan</h1>
-          <p class="">
-            O tênis Jordan é fruto de uma velha e forte parceria entre a Nike e
-            o jogador Michael Jordan.
-          </p>
+        <section
+          class="relative bg-[url(/wallpaper.jpeg)] bg-no-repeat bg-cover py-32 px-5 text-white font-bold z-0"
+        >
+          <div
+            class="bg-black-ligth opacity-60 w-full h-full absolute inset-0 -z-10"
+          ></div>
+          <div class="container mx-auto space-y-5">
+            <h1 class="text-3xl md:text-4xl">A melhor loja de Jordan</h1>
+            <p class="text-lg">
+              O tênis Jordan é fruto de uma velha e forte parceria entre a Nike
+              e o jogador Michael Jordan.
+            </p>
+          </div>
         </section>
-        <section class="">
-          <h2 class="">Destaque</h2>
-          <p class="">
+        <section class="container mx-auto py-12 px-5">
+          <h2 class="text-center text-3xl font-semibold text-black-ligth">
+            Destaques
+          </h2>
+          <p class="pt-2 text-center">
             Frete grátis e chinelo de brinde é aqui, aproveite por tempo
             limitado.
           </p>
 
-          <ul class="">
-            <li class=""><img src="/public/1.png" alt="Shoes" /></li>
-            <li class=""><img src="/public/2.png" alt="Shoes" /></li>
-            <li class=""><img src="/public/3.png" alt="Shoes" /></li>
-            <li class=""><img src="/public/4.png" alt="Shoes" /></li>
-            <li class=""><img src="/public/5.png" alt="Shoes" /></li>
-            <li class=""><img src="/public/6.png" alt="Shoes" /></li>
-            <li class=""><img src="/public/7.png" alt="Shoes" /></li>
-            <li class=""><img src="/public/8.png" alt="Shoes" /></li>
+          <ul
+            class="grid sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-7 py-12"
+          >
+            <li class="">
+              <div
+                class="w-full aspect-square bg-white-200 flex items-center justify-center"
+              >
+                <img
+                  src="/public/1.png"
+                  alt="Shoes"
+                  class="hover:scale-105 transition-transform cursor-pointer"
+                />
+              </div>
+            </li>
+            <li class="">
+              <div
+                class="w-full aspect-square bg-white-200 flex items-center justify-center"
+              >
+                <img
+                  src="/public/2.png"
+                  alt="Shoes"
+                  class="hover:scale-105 transition-transform cursor-pointer"
+                />
+              </div>
+            </li>
+            <li class="">
+              <div
+                class="w-full aspect-square bg-white-200 flex items-center justify-center"
+              >
+                <img
+                  src="/public/3.png"
+                  alt="Shoes"
+                  class="hover:scale-105 transition-transform cursor-pointer"
+                />
+              </div>
+            </li>
+            <li class="">
+              <div
+                class="w-full aspect-square bg-white-200 flex items-center justify-center"
+              >
+                <img
+                  src="/public/4.png"
+                  alt="Shoes"
+                  class="hover:scale-105 transition-transform cursor-pointer"
+                />
+              </div>
+            </li>
+            <li class="">
+              <div
+                class="w-full aspect-square bg-white-200 flex items-center justify-center"
+              >
+                <img
+                  src="/public/5.png"
+                  alt="Shoes"
+                  class="hover:scale-105 transition-transform cursor-pointer"
+                />
+              </div>
+            </li>
+            <li class="">
+              <div
+                class="w-full aspect-square bg-white-200 flex items-center justify-center"
+              >
+                <img
+                  src="/public/6.png"
+                  alt="Shoes"
+                  class="hover:scale-105 transition-transform cursor-pointer"
+                />
+              </div>
+            </li>
+            <li class="">
+              <div
+                class="w-full aspect-square bg-white-200 flex items-center justify-center"
+              >
+                <img
+                  src="/public/7.png"
+                  alt="Shoes"
+                  class="hover:scale-105 transition-transform cursor-pointer"
+                />
+              </div>
+            </li>
+            <li class="">
+              <div
+                class="w-full aspect-square bg-white-200 flex items-center justify-center"
+              >
+                <img
+                  src="/public/8.png"
+                  alt="Shoes"
+                  class="hover:scale-105 transition-transform cursor-pointer"
+                />
+              </div>
+            </li>
           </ul>
         </section>
-        <footer class="">Todos os direitos reservados.</footer>
+        <footer class="bg-black-ligth text-white text-center py-3">
+          Todos os direitos reservados.
+        </footer>
       </main>
     </div>
     <script type="module" src="/main.js"></script>
